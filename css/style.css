@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+.navbar{border: 2px solid black !important; background-color: rgb(238, 238, 227) !important;}
+
+h1 {color: #2C313F;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 6em;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 80px;}
+
+h2, h3{font-family: "Bebas Neue", sans-serif;}
+
+footer {background-color: rgb(238, 238, 227);
+height: 200px;
+width: 100%;}
+
+p{font-family: "Roboto Mono", monospace;}
+
+#button{background-color: rgb(238, 238, 227);}
+
+@media(max-width:768px)
+{body {font-size: 10px;}}
